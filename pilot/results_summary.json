@@ -1,0 +1,117 @@
+{
+ "pyannote_metrics": "3.2.1",
+ "summary": {
+  "A_wespeaker_resnet34__auto": {
+   "pooled_der_pct": 37.81,
+   "pooled_miss_pct": 22.6,
+   "pooled_fa_pct": 2.56,
+   "pooled_conf_pct": 12.64,
+   "mean_clip_der_pct": 42.01,
+   "pyannote_abs_pooled_pct": 37.81,
+   "ref_speech_total_s": 337.1
+  },
+  "B_nemo_titanet_small__auto": {
+   "pooled_der_pct": 38.45,
+   "pooled_miss_pct": 22.59,
+   "pooled_fa_pct": 2.35,
+   "pooled_conf_pct": 13.51,
+   "mean_clip_der_pct": 42.52,
+   "pyannote_abs_pooled_pct": 38.45,
+   "ref_speech_total_s": 337.1
+  },
+  "C_3dspeaker_campplus__auto": {
+   "pooled_der_pct": 45.68,
+   "pooled_miss_pct": 22.52,
+   "pooled_fa_pct": 3.38,
+   "pooled_conf_pct": 19.77,
+   "mean_clip_der_pct": 49.87,
+   "pyannote_abs_pooled_pct": 45.68,
+   "ref_speech_total_s": 337.1
+  },
+  "A_wespeaker_resnet34__oracle": {
+   "pooled_der_pct": 34.43,
+   "pooled_miss_pct": 22.71,
+   "pooled_fa_pct": 2.65,
+   "pooled_conf_pct": 9.07,
+   "mean_clip_der_pct": 39.4,
+   "pyannote_abs_pooled_pct": 34.43,
+   "ref_speech_total_s": 337.1
+  }
+ },
+ "sensitivity": {
+  "A_wespeaker_resnet34__auto": {
+   "dscore_der_c0_ovl": 37.81,
+   "dscore_jer_c0_ovl": 58.8,
+   "dscore_der_c025_ovl": 26.35,
+   "dscore_der_c025_noovl": 16.13
+  },
+  "B_nemo_titanet_small__auto": {
+   "dscore_der_c0_ovl": 38.45,
+   "dscore_jer_c0_ovl": 58.88,
+   "dscore_der_c025_ovl": 28.75,
+   "dscore_der_c025_noovl": 19.34
+  },
+  "C_3dspeaker_campplus__auto": {
+   "dscore_der_c0_ovl": 45.68,
+   "dscore_jer_c0_ovl": 65.59,
+   "dscore_der_c025_ovl": 37.57,
+   "dscore_der_c025_noovl": 33.2
+  },
+  "A_wespeaker_resnet34__oracle": {
+   "dscore_der_c0_ovl": 34.43,
+   "dscore_jer_c0_ovl": 58.0,
+   "dscore_der_c025_ovl": 24.39,
+   "dscore_der_c025_noovl": 15.11
+  }
+ },
+ "bootstrap": [
+  {
+   "candidate": "B_nemo_titanet_small__auto",
+   "incumbent": "A_wespeaker_resnet34__auto",
+   "unit": "group",
+   "n_units": 7,
+   "delta_pooled_der_pp": 0.65,
+   "ci95": [
+    -4.14,
+    4.5
+   ],
+   "B": 10000
+  },
+  {
+   "candidate": "B_nemo_titanet_small__auto",
+   "incumbent": "A_wespeaker_resnet34__auto",
+   "unit": "clip",
+   "n_units": 14,
+   "delta_pooled_der_pp": 0.65,
+   "ci95": [
+    -4.49,
+    5.05
+   ],
+   "B": 10000
+  },
+  {
+   "candidate": "C_3dspeaker_campplus__auto",
+   "incumbent": "A_wespeaker_resnet34__auto",
+   "unit": "group",
+   "n_units": 7,
+   "delta_pooled_der_pp": 7.88,
+   "ci95": [
+    1.05,
+    14.06
+   ],
+   "B": 10000
+  },
+  {
+   "candidate": "C_3dspeaker_campplus__auto",
+   "incumbent": "A_wespeaker_resnet34__auto",
+   "unit": "clip",
+   "n_units": 14,
+   "delta_pooled_der_pp": 7.88,
+   "ci95": [
+    1.6,
+    13.77
+   ],
+   "B": 10000
+  }
+ ]
+}

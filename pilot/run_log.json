@@ -1,0 +1,408 @@
+{
+ "sherpa_onnx": "1.13.8",
+ "python": "3.13.16",
+ "date_utc": "2026-10-18T11:02:52Z",
+ "threshold": 0.5,
+ "min_duration_on": 0.3,
+ "min_duration_off": 0.5,
+ "runs": [
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "dev00",
+   "num_clusters": -1,
+   "n_segments": 3,
+   "sec": 5.82
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "dev01",
+   "num_clusters": -1,
+   "n_segments": 5,
+   "sec": 3.98
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "tst00",
+   "num_clusters": -1,
+   "n_segments": 11,
+   "sec": 3.92
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "tst01",
+   "num_clusters": -1,
+   "n_segments": 4,
+   "sec": 1.42
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn01",
+   "num_clusters": -1,
+   "n_segments": 0,
+   "sec": 1.13
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn02",
+   "num_clusters": -1,
+   "n_segments": 1,
+   "sec": 1.2
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn03",
+   "num_clusters": -1,
+   "n_segments": 2,
+   "sec": 5.57
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn04",
+   "num_clusters": -1,
+   "n_segments": 4,
+   "sec": 2.65
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn05",
+   "num_clusters": -1,
+   "n_segments": 2,
+   "sec": 4.77
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn06",
+   "num_clusters": -1,
+   "n_segments": 8,
+   "sec": 4.47
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn07",
+   "num_clusters": -1,
+   "n_segments": 6,
+   "sec": 1.99
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn08",
+   "num_clusters": -1,
+   "n_segments": 11,
+   "sec": 3.62
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn09",
+   "num_clusters": -1,
+   "n_segments": 5,
+   "sec": 4.27
+  },
+  {
+   "system": "A_wespeaker_resnet34__auto",
+   "uri": "trn00",
+   "num_clusters": -1,
+   "n_segments": 6,
+   "sec": 3.65
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "dev00",
+   "num_clusters": -1,
+   "n_segments": 4,
+   "sec": 3.44
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "dev01",
+   "num_clusters": -1,
+   "n_segments": 5,
+   "sec": 2.39
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "tst00",
+   "num_clusters": -1,
+   "n_segments": 11,
+   "sec": 2.38
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "tst01",
+   "num_clusters": -1,
+   "n_segments": 4,
+   "sec": 1.31
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn01",
+   "num_clusters": -1,
+   "n_segments": 0,
+   "sec": 1.1
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn02",
+   "num_clusters": -1,
+   "n_segments": 1,
+   "sec": 1.04
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn03",
+   "num_clusters": -1,
+   "n_segments": 2,
+   "sec": 3.53
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn04",
+   "num_clusters": -1,
+   "n_segments": 3,
+   "sec": 1.84
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn05",
+   "num_clusters": -1,
+   "n_segments": 2,
+   "sec": 2.96
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn06",
+   "num_clusters": -1,
+   "n_segments": 7,
+   "sec": 2.51
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn07",
+   "num_clusters": -1,
+   "n_segments": 6,
+   "sec": 1.35
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn08",
+   "num_clusters": -1,
+   "n_segments": 9,
+   "sec": 2.23
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn09",
+   "num_clusters": -1,
+   "n_segments": 5,
+   "sec": 2.63
+  },
+  {
+   "system": "B_nemo_titanet_small__auto",
+   "uri": "trn00",
+   "num_clusters": -1,
+   "n_segments": 7,
+   "sec": 2.4
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "dev00",
+   "num_clusters": -1,
+   "n_segments": 6,
+   "sec": 3.47
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "dev01",
+   "num_clusters": -1,
+   "n_segments": 5,
+   "sec": 2.86
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "tst00",
+   "num_clusters": -1,
+   "n_segments": 17,
+   "sec": 2.81
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "tst01",
+   "num_clusters": -1,
+   "n_segments": 4,
+   "sec": 1.32
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn01",
+   "num_clusters": -1,
+   "n_segments": 0,
+   "sec": 1.0
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn02",
+   "num_clusters": -1,
+   "n_segments": 1,
+   "sec": 1.17
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn03",
+   "num_clusters": -1,
+   "n_segments": 6,
+   "sec": 3.26
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn04",
+   "num_clusters": -1,
+   "n_segments": 6,
+   "sec": 1.96
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn05",
+   "num_clusters": -1,
+   "n_segments": 3,
+   "sec": 3.14
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn06",
+   "num_clusters": -1,
+   "n_segments": 9,
+   "sec": 2.88
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn07",
+   "num_clusters": -1,
+   "n_segments": 8,
+   "sec": 1.58
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn08",
+   "num_clusters": -1,
+   "n_segments": 8,
+   "sec": 2.82
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn09",
+   "num_clusters": -1,
+   "n_segments": 9,
+   "sec": 3.1
+  },
+  {
+   "system": "C_3dspeaker_campplus__auto",
+   "uri": "trn00",
+   "num_clusters": -1,
+   "n_segments": 8,
+   "sec": 2.69
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "dev00",
+   "num_clusters": 2,
+   "n_segments": 2,
+   "sec": 5.49
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "dev01",
+   "num_clusters": 2,
+   "n_segments": 5,
+   "sec": 3.84
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "tst00",
+   "num_clusters": 4,
+   "n_segments": 8,
+   "sec": 3.66
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "tst01",
+   "num_clusters": 4,
+   "n_segments": 4,
+   "sec": 1.65
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn01",
+   "num_clusters": 4,
+   "n_segments": 0,
+   "sec": 0.95
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn02",
+   "num_clusters": 1,
+   "n_segments": 1,
+   "sec": 1.14
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn03",
+   "num_clusters": 2,
+   "n_segments": 2,
+   "sec": 5.34
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn04",
+   "num_clusters": 3,
+   "n_segments": 4,
+   "sec": 2.69
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn05",
+   "num_clusters": 4,
+   "n_segments": 2,
+   "sec": 4.86
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn06",
+   "num_clusters": 3,
+   "n_segments": 7,
+   "sec": 4.36
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn07",
+   "num_clusters": 4,
+   "n_segments": 5,
+   "sec": 1.9
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn08",
+   "num_clusters": 4,
+   "n_segments": 8,
+   "sec": 3.5
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn09",
+   "num_clusters": 3,
+   "n_segments": 4,
+   "sec": 4.57
+  },
+  {
+   "system": "A_wespeaker_resnet34__oracle",
+   "uri": "trn00",
+   "num_clusters": 3,
+   "n_segments": 6,
+   "sec": 3.79
+  }
+ ],
+ "failures": {
+  "A_wespeaker_resnet34__auto": [],
+  "B_nemo_titanet_small__auto": [],
+  "C_3dspeaker_campplus__auto": [],
+  "A_wespeaker_resnet34__oracle": []
+ }
+}

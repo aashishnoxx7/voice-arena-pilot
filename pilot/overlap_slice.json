@@ -1,0 +1,66 @@
+{
+ "A_wespeaker_resnet34__auto": {
+  "overlap": {
+   "ref_s": 141.9,
+   "der": 52.39,
+   "miss": 40.71,
+   "fa": 0.0,
+   "conf": 11.68
+  },
+  "single": {
+   "ref_s": 195.2,
+   "der": 25.82,
+   "miss": 9.43,
+   "fa": 4.42,
+   "conf": 11.97
+  }
+ },
+ "B_nemo_titanet_small__auto": {
+  "overlap": {
+   "ref_s": 141.9,
+   "der": 52.41,
+   "miss": 40.54,
+   "fa": 0.19,
+   "conf": 11.67
+  },
+  "single": {
+   "ref_s": 195.2,
+   "der": 27.76,
+   "miss": 9.54,
+   "fa": 3.92,
+   "conf": 14.3
+  }
+ },
+ "C_3dspeaker_campplus__auto": {
+  "overlap": {
+   "ref_s": 141.9,
+   "der": 48.65,
+   "miss": 40.25,
+   "fa": 0.62,
+   "conf": 7.79
+  },
+  "single": {
+   "ref_s": 195.2,
+   "der": 40.75,
+   "miss": 9.64,
+   "fa": 5.39,
+   "conf": 25.72
+  }
+ },
+ "A_wespeaker_resnet34__oracle": {
+  "overlap": {
+   "ref_s": 141.9,
+   "der": 48.12,
+   "miss": 40.97,
+   "fa": 0.0,
+   "conf": 7.15
+  },
+  "single": {
+   "ref_s": 195.2,
+   "der": 23.7,
+   "miss": 9.44,
+   "fa": 4.57,
+   "conf": 9.68
+  }
+ }
+}
